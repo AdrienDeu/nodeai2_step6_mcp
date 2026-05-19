@@ -1,8 +1,11 @@
 {
   "mcpServers": {
     "mongpt": {
-      "command": "node",
-      "args": ["/home/deu/Téléchargements/nodeai2_step6_mcp/src/mcp/server.js"],
+      "command": "npx",
+      "args": [
+        "tsx",
+        "/home/deu/Téléchargements/nodeai2_step6_mcp/src/infrastructure/mcp/server.ts"
+      ],
       "env": {
         "OLLAMA_URL": "http://localhost:11434",
         "EMBED_MODEL": "nomic-embed-text"
